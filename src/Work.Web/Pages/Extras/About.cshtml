@@ -1,0 +1,13 @@
+﻿@page
+@using Work.Localization
+@using Work.Permissions
+@using Microsoft.Extensions.Localization
+@using Microsoft.AspNetCore.Authorization
+@inject IStringLocalizer<WorkResource> L
+@model Work.Web.Pages.Extras.AboutModel
+@{
+}
+<abp-dynamic-form abp-model="_extraAbout" asp-page="/Extras/About">
+    <abp-form-content />
+    <button id="Save" class="btn btn-primary">Kaydet</button>
+</abp-dynamic-form>

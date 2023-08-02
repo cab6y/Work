@@ -1,0 +1,26 @@
+{
+  "culture": "tr",
+  "texts": {
+    "Menu:Home": "Ana sayfa",
+    "Welcome": "Hoşgeldiniz",
+    "ExtraGenderEnum": "Cinsiyet",
+    "Man": "Erkek",
+    "Woman": "Kadın",
+    "DateOfBirth": "Doğum Tarihi",
+    "DateOfPlace": "Doğum Yeri",
+    "NameSurnameOfCustodian": "Veli Adı Soyadı",
+    "PhoneOfCustodian": "Veli Telefon",
+    "HomeAddress": "Ev Adresi",
+    "City": "İl",
+    "Size": "Boy",
+    "SkinColor": "Ten Rengi",
+    "HairColor": "Saç Rengi",
+    "EyeColor": "Göz Rengi",
+    "DressSize": "Beden",
+    "ShoeSize": "Ayak Numarası",
+    "Menu:Extras": "Figuran",
+    "Menu:Extra": "Kişisel Bilgilerim",
+    "Menu:About": "Kişisel Bilgilerim",
+    "LongWelcomeMessage": "Uygulamaya hoşgeldiniz. Bu, ABP framework'ü üzerine bina edilmiş bir başlangıç projesidir. Daha fazla bilgi için abp.io adresini ziyaret edebilirsiniz."
+  }
+}

@@ -1,0 +1,39 @@
+﻿@page
+@using Work.Localization
+@using Work.Permissions
+@using Microsoft.Extensions.Localization
+@using Microsoft.AspNetCore.Authorization
+@inject IStringLocalizer<WorkResource> L
+@model Work.Web.Pages.Extras.FilesModel
+@{
+}
+
+@section scripts
+    {
+    <abp-script src="/Pages/Extras/Files.js" />
+}
+
+    <abp-card>
+
+        <abp-card-header>
+            <abp-row>
+                <abp-column>
+                    <abp-card-title>Dosyalar</abp-card-title>
+                </abp-column>
+                <abp-column size-md="_6" class="text-right">
+
+                    <abp-button id="NewFile"
+                            text="Yeni Dosya"
+                            icon="plus"
+                            button-type="Primary" />
+                </abp-column>
+            </abp-row>
+        </abp-card-header>
+
+        <abp-card-body>
+
+            <abp-table striped-rows="true" id="FileTable"></abp-table>
+        </abp-card-body>
+
+
+    </abp-card>

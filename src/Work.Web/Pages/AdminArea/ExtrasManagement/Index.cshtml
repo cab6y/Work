@@ -1,0 +1,24 @@
+﻿@page
+@using Work.Localization
+@using Work.Permissions
+@using Microsoft.Extensions.Localization
+@using Microsoft.AspNetCore.Authorization
+@inject IStringLocalizer<WorkResource> L
+@model Work.Web.Pages.AdminArea.ExtrasManagement.IndexModel
+@{
+}
+
+@section scripts
+    {
+    <abp-script src="/Pages/AdminArea/ExtrasManagement/Index.js" />
+}
+
+    <abp-card>
+
+        <abp-card-body>
+
+            <abp-table striped-rows="true" id="ExtrasTable"></abp-table>
+        </abp-card-body>
+
+
+    </abp-card>
